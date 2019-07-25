@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Iron Man Tribute</title>
+    <link rel="stylesheet" href="tribute.css">
 </head>
+
+<ul id="nav-bar">
+    <li><a href="Nowhere-yet">Home</a></li>
+    <li><a href="Nowhere-yet">About</a></li>
+    <li id="tribute-link"><a href="external-page-with-extra-info" target="_blank">More Info</a></li>
+    <li id="contact"><a href="nothing">Contact me</a></li>
+</ul>
+
 <body>
     <main id="main">
-        <div id="header">
+        <div id="header" class="div-with-shadow-round-border">
             <h1 id="title">Iron Man</h1>
-            <p>The man who saved the universe.</p>
+            <p>The man who saved the universe</p>
         </div>
-        <div id="img-div">
+        <div id="img-div" class="div-with-shadow-round-border">
             <figure>
-                <img id="image" src="" alt="image of Iron Man from MCU">
-                <figcaption>Description of the image</figcaption>
+                <img id="image"
+                    src="https://fsa.zobj.net/crop.php?r=kMI2AN7NEJKJl4hX0fljK9bFoNUR_HhkBX3xpvAwrnArPcmBhDbqm1-AP4qk5bn5KJyqVQ9-jb7yrWTTKwOCvXUTma6kCenyrAwWg7THpu_5knZUgw36g5kuiN5xb47_cvy0we92jAHTHN3GKi5b_kUUaApfkMwetfv480wfQ9YEKcPt0u7780SsNorT8UE_qWKDA-c2vEhmHr2i"
+                    alt="Ironman equiped all six infinity stones in his left gauntlet">
+                <figcaption id="img-caption">Ironman with all six infinity stones</figcaption>
             </figure>
         </div>
-        <p id="timeline">
-            Below is the timeline of Iron Man:
-            <ul>
-                <li>timeline item</li>
-                <li>another timeline item</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <section id="tribute-info" class="div-with-shadow-round-border">
+            <h3 id="headline">Timeline of Iron man:</h3>
+            <ul id="timeline">
+                <li>
+                    <strong>1914</strong> - Born in Cresco, Iowa
+                </li>
+                <li>
+                    <strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a
+                    Depression era
+                    program known as the "National Youth Administration"
+                </li>
+                <li>
+                    <strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian
+                    Conservation Corps, helping
+                    starving Americans. "I saw how food changed them", he said. "All of this left scars on me."
+                </li>
             </ul>
-        </p>
+            <p id="footnote"><i>"I love you 3000" - Ironman 2019</i></p>
+        </section>
     </main>
 </body>
+
 </html>
