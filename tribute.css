@@ -1,6 +1,6 @@
 html {
     font: 10px;
-    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: sans-serif;
 }
 
 #nav-bar{
@@ -99,4 +99,9 @@ li a{
 
 body{
     margin: 0;
+}
+
+p a{
+    text-decoration: none;
+    font-weight: bold;
 }
